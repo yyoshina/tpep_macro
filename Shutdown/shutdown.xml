@@ -1,0 +1,32 @@
+﻿<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>panel_shutdown</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Power</Icon>
+    <Color>#FF7033</Color>
+    <Name>Shutdown</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Shutdown</Name>
+      <Row>
+        <Name>Shutdown this device?</Name>
+        <Widget>
+          <WidgetId>button_shutdown_yes</WidgetId>
+          <Name>Yes</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>button_shutdown_no</WidgetId>
+          <Name>No</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
